@@ -60,7 +60,7 @@ const StyledCard = styled(Card)<{isActive: boolean}>`
 
 const Header = styled('div')`
   padding: ${space(1.5)} ${space(2)};
-  border-bottom: 1px solid ${p => p.theme.gray100};
+  border-bottom: 1px solid ${p => p.theme.border};
   display: grid;
   grid-gap: ${space(1)};
 `;
@@ -87,5 +87,5 @@ const Description = styled('div')`
 const SubCard = styled('div')`
   background: ${p => p.theme.bodyBackground};
   padding: ${space(1.5)} ${space(2)};
-  border-bottom: 1px solid ${p => p.theme.gray100};
+  border-bottom: 1px solid ${p => p.theme.border};
 `;
